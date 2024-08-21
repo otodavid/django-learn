@@ -9,5 +9,5 @@ class Tour(models.Model):
     
     # This is a string representation of the Tour class
     def __str__(self):
-        return f"ID {self.id}: From {self.origin_country} to {self.dest_country}. Price is {self.price} for {self.number_of_nights} nights"
+        return f"ID {self.id}: From {self.origin_country} to {self.dest_country}. Price is ${self.price} for {self.number_of_nights} nights"
         
